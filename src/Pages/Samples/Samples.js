@@ -38,27 +38,28 @@ const Samples = () => {
     speed: 500,
     centerPadding: "20px",
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 4,
     autoPlay: 1000,
   };
   const [currentIndex, setCurrentIndex] = useState(0);
   const videoRefs = useRef([]);
+
   const handleBeforeChange = (oldIndex, newIndex) => {
     setCurrentIndex(newIndex);
   };
 
   const handleMouseEnter = (index) => {
-    // Play video when hovered
-    videoRefs.current[index].play();
+
+    videoRefs.current[index]?.play();
   };
 
   const handleMouseLeave = (index) => {
-    // Pause video when hover is removed
-    videoRefs.current[index].pause();
+
+    videoRefs.current[index]?.pause();
   };
 
   return (
-    <div style={{ paddingBottom: 20 }}>
+    <div style={{ paddingBottom: 20,marginTop:80 }}>
       <HeaderWrapper>
         <h1 style={{ color: ColorCodes.primaryColor }}>Samples</h1>
       </HeaderWrapper>

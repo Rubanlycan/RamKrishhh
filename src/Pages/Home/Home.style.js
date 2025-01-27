@@ -1,5 +1,6 @@
 import react from "react";
 import styled from "styled-components";
+import { ColorCodes } from "../../constants/constant";
 
 export const Wrapper = styled.div`
 display:flex;
@@ -25,4 +26,15 @@ z-index:-1;
 right:0px;
 top:60px;
 
+`;
+
+export const StyledLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+
+  &:hover {
+    color: ${ColorCodes.primaryColor}; 
+ 
+  }
 `;

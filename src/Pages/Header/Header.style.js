@@ -15,6 +15,7 @@ export const HeaderWrapper = styled.header`
   align-items:center;
   padding-left:20px;
   padding-right:20px;
+  z-index:10000;
 `;
 
 export const Logo = styled.img`
