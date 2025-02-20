@@ -17,7 +17,7 @@ const About = () => {
         magical powers of using react to build delightful sound effects.
         Expertise in quality development practices and in pursuing innovative
         ways to create sound effects. Vocal Recording, Foley, SFX, Sound
-        Designing, Game Sounds Audio Editing, Dialogue Edit, Basic Mixing.
+        Designing, Game Sounds Audio Editing, Dialogue Edit, Mixing and mastering.
       </p>
       <p  style={{color:"#fff",letterSpacing:1,wordSpacing:1,fontWeight:'bold'}}>Experience in Tools:</p>
       <ul>

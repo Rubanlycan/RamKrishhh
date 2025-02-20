@@ -7,7 +7,7 @@ const SERVICES = [{name:"Vocal Recording","desc":"Vocal recording is the process
     {name:"SFX",desc:"SFX is an abbreviation for special effects or sound effects. It's a term used in film and theater to describe unusual actions or sounds that are created using equipment. "} , 
     {name:"Sound Designing",desc:"Sound design is the process of creating soundtracks for a variety of media using audio production techniques. It can involve recording, editing, or creating sounds from scratch. "},
     {name:"Game Sounds Audio Editing", desc:" refers to the process of manipulating and refining recorded audio elements, like sound effects, music, and dialogue, to create the soundscape of a video game, including adjusting volume levels, removing unwanted noise, adding effects, and precisely timing them to match the on-screen action, ultimately enhancing the player's immersion in the game world."},
-    {name:"Dialogue Edit"},{name:  "Basic Mixing"}]
+    {name:"Dialogue Edit"},{name:  "Mixing and mastering"}]
 const Services = () => {
   return (
     <div style={{ paddingBottom: 20,marginTop:80 }}>
