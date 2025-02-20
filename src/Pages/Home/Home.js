@@ -22,10 +22,10 @@ const Home = () => {
               <TbBrandFiverr size={24} color={iconSelected==="fiver"?ColorCodes.primaryColor:"#000"}/>
               </StyledLink>
               </li>
-            <li><StyledLink target="_blank" onMouseOver={()=>setIconSelected('insta')} onMouseOut={()=>setIconSelected('')}  style={{color: 'inherit', textDecoration: 'none'}} href="https://www.linkedin.com/in/ramkrishnan-muthuswamy-a21513231/">
+            <li><StyledLink target="_blank" onMouseOver={()=>setIconSelected('insta')} onMouseOut={()=>setIconSelected('')}  style={{color: 'inherit', textDecoration: 'none'}} href="https://www.instagram.com/musickrishhh/profilecard/?igsh=c3NhcHgyc3Vsd2g1">
               <FaInstagram  size={24}  color={iconSelected==='insta'?ColorCodes.primaryColor:"#000"}/>
               </StyledLink></li>
-            <li><StyledLink target="_blank" onMouseOver={()=>setIconSelected('linkedn')} onMouseOut={()=>setIconSelected('')}    style={{color: 'inherit', textDecoration: 'none'}} href="https://www.instagram.com/musickrishhh/profilecard/?igsh=c3NhcHgyc3Vsd2g1">
+            <li><StyledLink target="_blank" onMouseOver={()=>setIconSelected('linkedn')} onMouseOut={()=>setIconSelected('')}    style={{color: 'inherit', textDecoration: 'none'}} href="https://www.linkedin.com/in/ramkrishnan-muthuswamy-a21513231/">
               <FaLinkedin  size={24}  color={iconSelected==='linkedn'?ColorCodes.primaryColor:"#000"}/></StyledLink></li>
           </ul>
         </div>
