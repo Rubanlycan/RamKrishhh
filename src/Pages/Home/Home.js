@@ -15,7 +15,7 @@ const Home = () => {
    
       <RightWrapper>
       <div style={{marginRight:'30rem'}}>
-          <h3 style={{fontSize:40}}>Hi i'm <span style={{color:ColorCodes.primaryColor}}>Ram</span> Krishnan</h3>
+          <h3 style={{fontSize:40}}>Hi, i'm <span style={{color:ColorCodes.primaryColor}}>Ram</span> Krishnan</h3>
           <h3 >Expertise in Vocal Recording, Foley, SFX and Sound Designing</h3>
           <ul style={{display:'flex',gap:28, listStyleType: 'none'}}>
             <li ><StyledLink target="_blank" onMouseOver={()=>setIconSelected('fiver')} onMouseOut={()=>setIconSelected('')}   style={{color: 'inherit', textDecoration: 'none'}} href="https://www.fiverr.com/sellers/krishhhtunes">
